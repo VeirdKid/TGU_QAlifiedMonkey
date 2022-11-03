@@ -1,0 +1,331 @@
+{
+  "id": "16707f59-05e1-46d0-a7d3-b630f01ab703",
+  "version": "2.0",
+  "name": "TGU 5th Practical",
+  "url": "https://qa.neapro.site/login",
+  "tests": [{
+    "id": "31abff68-cba2-4403-a81a-a557b6f97426",
+    "name": "Practical_N5",
+    "commands": [{
+      "id": "7b638e4c-5177-4409-b207-b560a2fce9ac",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://qa.neapro.site/login"
+    }, {
+      "id": "9fa3ddab-aad0-4bb0-9c61-ce772500a23d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "57268acb-2e62-46f9-8300-62be51ca32aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Забыли пароль?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d901268-26e1-4da6-ad73-dcbe69a04be1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Отмена",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41d60671-5e31-4d5d-97c3-9294f807337f",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "2af91544-f3e5-4f38-8572-32dab952eb21",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "chaos85@mail.ru"
+    }, {
+      "id": "fbdc35c5-f794-423d-b066-1ddddb975c8d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "10101030"
+    }, {
+      "id": "2007bdf4-4383-48fe-9909-68f6f785ae67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfe66c1d-ef12-4e6b-82ee-e80f11254690",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.blender",
+      "targets": [
+        ["css=.blender", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "8de470eb-a1a7-459c-a70a-9510f0e9be84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .document-tile:nth-child(1)",
+      "targets": [
+        ["css=.active .document-tile:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57d69a48-6449-4fe2-b995-204a100d209a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.close",
+      "targets": [
+        ["css=.close", "css:finder"],
+        ["xpath=//img[@alt='X']", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5837e0d-4cf5-4e3a-ab48-14d93fc9240a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .document-tile:nth-child(1)",
+      "targets": [
+        ["css=.active .document-tile:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9140a30e-1834-4514-91b7-311bad403d13",
+      "comment": "",
+      "command": "type",
+      "target": "id=surname",
+      "targets": [
+        ["id=surname", "id"],
+        ["css=#surname", "css:finder"],
+        ["xpath=//input[@id='surname']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Иванов"
+    }, {
+      "id": "40905b45-1fb4-46e8-b488-16fcffbb750e",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Иван"
+    }, {
+      "id": "9df14088-e370-4f1f-8fe2-9ea7c549df75",
+      "comment": "",
+      "command": "type",
+      "target": "id=patronymic",
+      "targets": [
+        ["id=patronymic", "id"],
+        ["css=#patronymic", "css:finder"],
+        ["xpath=//input[@id='patronymic']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Иванович"
+    }, {
+      "id": "a641af91-00c1-4e9a-bbe9-0ff7fbd88bdb",
+      "comment": "",
+      "command": "type",
+      "target": "name=date",
+      "targets": [
+        ["name=date", "name"],
+        ["css=#birthday .mx-input", "css:finder"],
+        ["xpath=//input[@name='date']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "22.10.1947"
+    }, {
+      "id": "4294d740-b583-47d9-beba-6274a51d6d4d",
+      "comment": "",
+      "command": "type",
+      "target": "id=passportSeries",
+      "targets": [
+        ["id=passportSeries", "id"],
+        ["css=#passportSeries", "css:finder"],
+        ["xpath=//input[@id='passportSeries']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "cb699664-1933-4ae6-a2cf-fb929cc60a4c",
+      "comment": "",
+      "command": "type",
+      "target": "id=passportNumber",
+      "targets": [
+        ["id=passportNumber", "id"],
+        ["css=#passportNumber", "css:finder"],
+        ["xpath=//input[@id='passportNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "a81438aa-f864-4b7b-8628-3bd02540d227",
+      "comment": "",
+      "command": "type",
+      "target": "css=#dateOfIssue .mx-input",
+      "targets": [
+        ["css=#dateOfIssue .mx-input", "css:finder"],
+        ["xpath=(//input[@name='date'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='dateOfIssue']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "22.02.2022"
+    }, {
+      "id": "2d04b1d9-f5f8-4382-9c4f-e2b7fdbfc75d",
+      "comment": "",
+      "command": "type",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "2debb786-92b9-48d7-9811-a70fa8650e48",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardId",
+      "targets": [
+        ["id=cardId", "id"],
+        ["css=#cardId", "css:finder"],
+        ["xpath=//input[@id='cardId']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "12345678910"
+    }, {
+      "id": "9acb370c-6151-42c8-997e-9201638abaf1",
+      "comment": "",
+      "command": "type",
+      "target": "id=issued",
+      "targets": [
+        ["id=issued", "id"],
+        ["css=#issued", "css:finder"],
+        ["xpath=//input[@id='issued']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "ИПОПАТ Мухосранского р-на г. Нижние Бельдяжки"
+    }, {
+      "id": "e3a21fd0-8909-4467-a343-b7df00d2f22a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "1234567890"
+    }, {
+      "id": "7cb0e3db-3dbd-4a12-bebc-72bd083342e6",
+      "comment": "",
+      "command": "check",
+      "target": "id=privacy",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98c24e25-4df7-4402-bb49-521be2f20420",
+      "comment": "",
+      "command": "type",
+      "target": "css=.vue-dadata__input",
+      "targets": [
+        ["css=.vue-dadata__input", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='address']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "г Москва, ул Гаврикова, д 4 стр 1"
+    }, {
+      "id": "42f617c7-7b3d-49c1-9f01-91a7cc18ed62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vue-dadata__suggestions-item",
+      "targets": [],
+      "value": "г Москва, ул Гаврикова, д 4 стр 1"
+    }, {
+      "id": "7fdd9c91-c79e-4410-9467-b7a85b44c0be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outline",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aaca9766-089f-4eea-807e-ea4203d60d6b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.upload-widget > input",
+      "targets": [],
+      "value": "c:\\test\\1.jpg"
+    }, {
+      "id": "46fb1f76-473a-48ed-b6d4-130278b5e077",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "46bbfc43-3256-471e-9dc9-3a6d59088232",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://qa.neapro.site/login"],
+  "plugins": []
+}
